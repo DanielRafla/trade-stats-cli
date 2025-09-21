@@ -1,4 +1,4 @@
-# trade-stats-cli
+# Trade-Stats-Cli
 
 ![Build](https://github.com/DanielRafla/trade-stats-cli/actions/workflows/ci.yml/badge.svg)
 
