@@ -37,5 +37,7 @@ date,symbol,qty,price,side
 
 **Example rows**
 2024-01-02,AAPL,10,100,BUY
+
 2024-01-07,AAPL,5,110,SELL
+
 2024-01-09,MSFT,5,320,SELL
