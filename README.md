@@ -15,3 +15,11 @@ java -jar target/trade-stats-cli-1.0.1-beginner.jar --file=sample_trades.csv
 java -jar target/trade-stats-cli-1.0.1-beginner.jar --file=sample_trades.csv --symbol=AAPL --since=2024-01-01
 mvn -q test
 
+## Sample Output
+
+Total P&L: 415.00
+Win rate: 100.00%
+Max drawdown: 0.00
+By symbol:
+  - AAPL: trades=6, P&L=250.00
+  - MSFT: trades=5, P&L=165.00
