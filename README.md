@@ -2,11 +2,14 @@
 
 ![Build](https://github.com/DanielRafla/trade-stats-cli/actions/workflows/ci.yml/badge.svg)
 
-Java 17 CLI that reads a CSV of trades and prints:
-- Total realized P&L (long-only, FIFO)
-- Win rate (% SELL rows with positive realized P&L)
-- Max drawdown (over cumulative realized P&L)
-- Per-symbol summary (row count, realized P&L)
+**Description:** A lightweight Java 17 CLI that ingests a `date,symbol,qty,price,side` CSV of trade fills and instantly reports realized trading performance: **total P&L (FIFO, long-only)**, **win rate**, **max drawdown**, and **per-symbol** stats. Designed to be a small, testable starter project with no external CSV libs, with clear errors, CI, and a single runnable JAR. Great for quick P&L sanity checks from broker exports or journaling trades.
+
+**Goal:** Given a trades CSV, compute **deterministic realized P&L** and risk at a glance:
+- Total realized P&L using per-symbol FIFO lots
+- Win rate (% profitable SELL rows)
+- Max drawdown over cumulative realized P&L
+- Per-symbol trade counts and P&L  
+Extras: `--symbol` and `--since` filters, oversell **trim** warnings, and unit tests for parser/calculator.
 
 ## Build / Run / Test
 ```bash
