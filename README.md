@@ -36,6 +36,7 @@ date,symbol,qty,price,side
 - `side`: `BUY` or `SELL`
 
 **Example rows**
+
 2024-01-02,AAPL,10,100,BUY
 
 2024-01-07,AAPL,5,110,SELL
