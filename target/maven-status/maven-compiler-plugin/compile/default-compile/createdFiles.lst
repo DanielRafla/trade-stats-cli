@@ -1,0 +1,10 @@
+com/drafla/tradestats/TradeCalculator$Stats.class
+com/drafla/tradestats/ReportPrinter.class
+com/drafla/tradestats/TradeCalculator.class
+com/drafla/tradestats/Main.class
+com/drafla/tradestats/TradeCalculator$Lot.class
+com/drafla/tradestats/Trade.class
+com/drafla/tradestats/CsvParser.class
+com/drafla/tradestats/Trade$Side.class
+com/drafla/tradestats/CsvParser$Result.class
+com/drafla/tradestats/TradeCalculator$SymbolSummary.class
