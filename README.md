@@ -23,3 +23,19 @@ Max drawdown: 0.00
 By symbol:
   AAPL: trades=6, P&L=250.00
   MSFT: trades=5, P&L=165.00
+## Input format For CSV
+
+**Required header (exact):**
+date,symbol,qty,price,side
+
+**Field rules**
+- `date`: `YYYY-MM-DD` (e.g., `2024-01-15`)
+- `symbol`: non-empty string (e.g., `AAPL`)
+- `qty`: positive number
+- `price`: positive number
+- `side`: `BUY` or `SELL`
+
+**Example rows**
+2024-01-02,AAPL,10,100,BUY
+2024-01-07,AAPL,5,110,SELL
+2024-01-09,MSFT,5,320,SELL
